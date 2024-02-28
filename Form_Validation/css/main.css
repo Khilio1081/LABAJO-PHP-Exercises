@@ -1,0 +1,101 @@
+@keyframes bgcolor{
+    0% {
+        background-image: url('../mk2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    30% {
+        background-image: url('../mk2.jpg');
+    }
+    60% {
+        background-image: url('../mk3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    100% {
+        background-image: url('../mk3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+}
+
+body{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.container{
+    background-color: hsl(240, 100%, 50%, 0.5);
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 15vh;
+    width: 50%; 
+    padding: 5px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 80px;
+    height: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(240, 46, 46, 0.76);
+    position: relative;
+}
+
+
+.title{
+    text-shadow: 1px 1px black;
+}
+
+.container2{
+    margin: auto;
+    margin-top: 10vh;
+}
+
+
+.red{
+    color:rgb(233, 42, 42);
+    font-size:x-small;
+    font-weight: 100;
+}
+
+
+.login {
+    background-color: pink;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 38px;
+    border-radius: 21px;
+}
+
+.back {
+    background-color: pink;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 21px;
+}
+
+
+.char {
+    margin: auto;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: -35%;
+    width: 350px;
+    height: 90vh;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(60, 80, 168, 0.76);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
