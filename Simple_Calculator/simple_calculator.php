@@ -19,7 +19,7 @@
 
         <br><br>
 
-            <select class="op" name="operator">
+            <select name="op" id="op">
                 <option value="add">+</option>
                 <option value="subtract">-</option>
                 <option value="multiply">*</option>
@@ -29,18 +29,12 @@
         <br><br>
 
         <label>Second Number:</label>
-        <input type="number" name="num2">
-
-        <br><br>
-
-        <input type="submit" name="submit" value="Calculate">
-
-        <br><br>
-
+        <input type="number" name="num2"><br><br>
+        <input class="but" type="submit" name="submit" value="Calculate"><br><br>
         <div class="result">
             <?php
                 if (isset($result)) {
-                    echo "Result: $result";
+                    echo "Result: <h2>$result</h2>";
                 }
             ?>
         </div>
