@@ -29,6 +29,7 @@ input{
 }
 
 .but {
-    background-color: rgb(223, 196, 196);
+    background-color: hsl(0, 30%, 82%, 0.5);
     font-size: 18px;
+    border-radius: 20px;
 }
