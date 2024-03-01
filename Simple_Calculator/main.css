@@ -1,8 +1,11 @@
 body{
-    background-color: grey;
-    background-image: url('awaw.jpg');
-    background-size: 150%;
-    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 83vh;
+    background-image: linear-gradient(rgba(9,0,77,0.85), rgba(105, 17, 17, 0.85)),
+    url('awaw.jpg');
+    background-size: cover;
+    background-position: center;
+
 }
 
 .container{
