@@ -1,21 +1,21 @@
 @keyframes bgcolor{
     0% {
-        background-image: url('../mk2.jpg');
+        background-image: url('../images/mk2.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
     }
     30% {
-        background-image: url('../mk2.jpg');
+        background-image: url('../images/mk2.jpg');
     }
     60% {
-        background-image: url('../mk3.jpg');
+        background-image: url('../images/mk3.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
     }
     100% {
-        background-image: url('../mk3.jpg');
+        background-image: url('../images/mk3.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
