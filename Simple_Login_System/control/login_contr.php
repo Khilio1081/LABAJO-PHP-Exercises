@@ -1,17 +1,19 @@
 <?php
-require "../model/login_model.php";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST ["username"];
-    $password = $_POST ["password"];
+class Login {
+    public $username;
+    public $password;
 
-    if ($username === $val_username && $password === $val_password) {
-        header ("Location: ../view/success_view.php");
-        exit;
-    } else {
-        $error_message = "Username and password doesn't match!!!";
-    }
-
+    public function getName() {
+        return $this->username;
+    } 
 }
 
-$user = $val_username;
+$val_username = "MaryJane01";
+$val_password = "admin123";
+
+$obj = new Login();
+
+$user = $obj->getName();
+
+require "../model/login_model.php";
