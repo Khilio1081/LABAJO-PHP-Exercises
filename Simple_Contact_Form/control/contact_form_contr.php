@@ -21,11 +21,4 @@ Class Form{
     }
 }
 
-
 require "../model/contact_form_model.php";
-
-
-
-
-
-

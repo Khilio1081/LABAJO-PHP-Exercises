@@ -6,8 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST ["message"];
 
     $obj = new Form($_POST['name'], $_POST['email'], $_POST['message']);
-    $getAll = $obj->getAll();
 
+    $getAll = $obj->getAll();
 
     if(empty($_POST["name"])){
         $nameErr = "Please fill your Name!";
