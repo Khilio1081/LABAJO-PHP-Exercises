@@ -27,6 +27,7 @@ class MyNumbers{
     
     public function displayNum($numbers){
         echo "Numbers to be ascend and descend sort<br>";
+        
         $arrlength = count ($numbers);
         for ($x = 0; $x < $arrlength; $x++) {
             echo $numbers[$x];
