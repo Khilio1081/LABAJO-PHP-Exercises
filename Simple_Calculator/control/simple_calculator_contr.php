@@ -23,4 +23,5 @@ class Calculator{
 		  } 
     } 
 }
+
 require "../model/simple_calculator_model.php";
