@@ -4,24 +4,19 @@
 
 
 body{
-    background-image: url('galaxy.jpg');
+    background-image: url('../images/galaxy.jpg');
 }
 
 .container{
     margin-top: 20vh;
-    height: 30vh;
+    height: 40vh;
     margin: auto;
     width: 30%;
     padding: 10px;
     box-shadow: 10px 10px hsl(0, 0%, 100%, 0.4);
     border-radius: 20px;
-    border: 3px solid rgb(255, 0, 0);
+    border: 3px solid rgb(207, 238, 93);
     text-align: center;
     background-color: hsla(60, 76%, 95%, 0.4);
     position: relative;
-}
-
-.content {
-    font-size: large;
-    font-weight: bold;
 }

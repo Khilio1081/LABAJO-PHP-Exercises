@@ -1,10 +1,8 @@
-<?php require "myphp.php"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../css/my.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Array Manipulation</title>
 </head>
@@ -12,17 +10,8 @@
     <div class="container">
         <div>
             <h1>Array Manipulation</h1>
+            <?php require "../control/array_manipulation_contr.php"; ?>
         </div>
-
-        <div class="content">
-            <?php
-                ascend($numbers);
-                echo "<br><br>";
-            ?>
-            <?php
-                descend($numbers);
-            ?>
-
         </div>
     </div>
 </body>
