@@ -1,0 +1,38 @@
+body{
+    width: 100%;
+    min-height: 83vh;
+    background-image: linear-gradient(rgba(9,0,77,0.85), rgba(105, 17, 17, 0.85)),
+    url('../images/awaw.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    height: 50vh;
+    margin:auto;
+    width: 15%;
+    border: 3px solid black;
+    padding: 4%;
+    text-align: center;
+    margin-top: 90px;
+    background-color: hsl(0, 0%, 98%, 0.8);
+    box-shadow: 10px 10px black;
+}
+
+.op{
+    width: 50px;
+    height: 30px;
+}
+
+input{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.but {
+    background-color: hsl(0, 30%, 82%, 0.5);
+    font-size: 18px;
+    border-radius: 20px;
+}
