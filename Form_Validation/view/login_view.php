@@ -2,6 +2,8 @@
 
 require "../control/login_contr.php";
 require "extras/header.php";
+
+namespace loginView;
 ?>
 
 <body>
@@ -15,19 +17,19 @@ require "extras/header.php";
 
                         <h4>Please Login</h4>
 
-                        <div class="red">
-                            <?php if (isset($error_message)) { ?>
-                            <p><?php echo $error_message; ?></p>
-                            <?php } ?>
+                            <div class="red">
+                                <?php if (isset($error_message)) { ?>
+                                <p><?php echo $error_message; ?></p>
+                                <?php } ?>
 
-                            <?php if (isset($usernameErr)) { ?>
-                            <p><?php echo $usernameErr; ?></p>
-                            <?php } ?>
+                                <?php if (isset($usernameErr)) { ?>
+                                <p><?php echo $usernameErr; ?></p>
+                                <?php } ?>
 
-                            <?php if (isset($passwordErr)) { ?>
-                            <p><?php echo $passwordErr; ?></p>
-                            <?php } ?>
-                        </div>
+                                <?php if (isset($passwordErr)) { ?>
+                                <p><?php echo $passwordErr; ?></p>
+                                <?php } ?>
+                            </div>
                     </div>
 
                     <label for="username"><b>Username: </b></label>

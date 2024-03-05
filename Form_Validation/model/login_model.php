@@ -1,25 +1,23 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST ["username"];
-    $password = $_POST ["password"];
+namespace login_model;
 
-    if ($username === $val_username && $password === $val_password) {
-        header ("Location: ../view/success_view.php");
-        exit;
-    } else {
-        $error_message = "Username and password doesn't match!!!";
-    }
+class LoginModel {
+    public $username;
+    public $password;
 
-    if(empty($_POST["username"])){
-        $usernameErr = "Please fill your Username!";
-    } else {
-        $username = $_POST["username"];
-    }
-
-    if(empty($_POST["password"])){
-        $passwordErr = "Please fill your Password!";
-    } else {
-        $password = $_POST["password"];
-    }
+    public function getName() {
+        return $this->username;
+    } 
 }
+
+$val_username = "MaryJane01";
+$val_password = "admin123";
+
+$obj = new LoginModel();
+
+$user = $obj->getName();
+
+use login_contr\LoginController;
+
+
