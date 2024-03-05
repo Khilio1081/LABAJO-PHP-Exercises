@@ -1,7 +1,5 @@
 <?php
 
-namespace Model;
-
 class Display {
     public $timezone;
 
@@ -22,6 +20,5 @@ class Display {
             echo "<p>4. Time: " . $now->format('H:i:s') . "</p>";
             echo "<p>5. Date and time in a custom format: " . $now->format('l, F j, Y g:i A') . "</p>";
         }
-        
     }
 }

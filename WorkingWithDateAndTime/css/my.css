@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+    font-weight: 500px;
+}
+
+body {
+    display: flex;
+    background-image: url('../images/bg.jpg');
+}
+
+.container {
+    margin:auto;
+    margin-top: 20vh;
+    padding: 10px;
+    border: 3px solid black;
+    text-align: center;
+    height: 50vh;
+    background: hsl(0, 0%, 96%, 0.8);
+}
